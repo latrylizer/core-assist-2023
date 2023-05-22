@@ -1,0 +1,22 @@
+{
+  "activeItem": "",
+  "items": [
+    {
+      "name": "APPLICANTS",
+      "component": "Applicants"
+    },
+    {
+      "name": "JOBS",
+      "component": "Jobs"
+    },
+
+    {
+      "name": "ACCOUNTS",
+      "component": "Accounts"
+    },
+    {
+      "name": "LOGOUT",
+      "component": "Logout"
+    }
+  ]
+}

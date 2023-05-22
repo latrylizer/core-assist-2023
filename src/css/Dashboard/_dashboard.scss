@@ -1,0 +1,13 @@
+.list-group {
+  .dashboard-nav-item {
+    transition: all 0.2s ease-in-out;
+    //background-color: $dark;
+  }
+  .dashboard-nav-item:hover {
+    background-color: $hex-orange-hover !important;
+  }
+  .dashboard-nav-item-active {
+    background-color: $orange !important;
+    transition: all 0.2s ease-in-out;
+  }
+}
