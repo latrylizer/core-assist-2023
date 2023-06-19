@@ -1,21 +1,21 @@
-import React from 'react'
-import Navigation from './Components/Navigation/Navigation'
-import './css/App.scss'
-import Home from './Components/Pages/Home'
-import WhatWeDo from './Components/Pages/What_we_do'
-import Pricing from './Components/Pages/Pricing'
-import ContactUs from './Components/Pages/Contact_us'
-import Careers from './Components/Pages/Careers'
-import Login from './Components/Pages/Login'
-import Dashboard from './Components/Dashboard/Dashboard'
-import PrivateRoute from './Components/Pages/Private_route'
+import React from "react";
+import Navigation from "./Components/Navigation/Navigation";
+import "./css/App.scss";
+import Home from "./Components/Pages/Home";
+import WhatWeDo from "./Components/Pages/What_we_do";
+import Pricing from "./Components/Pages/Pricing";
+import ContactUs from "./Components/Pages/Contact_us";
+import Careers from "./Components/Pages/Careers";
+import Login from "./Components/Pages/Login";
+import Dashboard from "./Components/Dashboard/Dashboard";
+import PrivateRoute from "./Components/Pages/Private_route";
 import {
   createBrowserRouter,
   RouterProvider,
   createRoutesFromElements,
   Route,
-} from 'react-router-dom'
-import { AuthProvider } from './Components/Auth/Auth_context'
+} from "react-router-dom";
+import { AuthProvider } from "./Components/Auth/Auth_context";
 // const router = createBrowserRouter([
 //   {
 //     path: '/',
@@ -71,7 +71,7 @@ const router = createBrowserRouter(
       />
     </Route>
   )
-)
+);
 
 const App = () => {
   return (
@@ -80,6 +80,6 @@ const App = () => {
       <RouterProvider router={router}></RouterProvider>
       <AuthProvider></AuthProvider>
     </AuthProvider>
-  )
-}
-export default App
+  );
+};
+export default App;
