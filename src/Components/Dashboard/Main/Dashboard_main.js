@@ -11,16 +11,23 @@ const DashBoardMain = () => {
   const sidebarItems = useRef();
   sidebarItems.current = SidebarItem;
   useEffect(() => {
-    const listener = EventEmitter.addListener((data) => {
-      for (var index in SidebarItem.items) {
-        if (data === sidebarItems.current.items[index].component) {
-          return setComponent(data);
+    const listener = EventEmitter.addListener(
+      "D_sidebar_item_e",
+      (data) => {
+        for (var index in SidebarItem.items) {
+          if (data === sidebarItems.current.items[index].component) {
+            return setComponent(data);
+          }
         }
-      }
-      return "";
-    }, false);
+        return "";
+      },
+      false
+    );
     return () => listener.remove();
   });
+  useEffect(() => {
+    console.log(component);
+  }, []);
   return (
     <>
       {component === "Jobs" ? <Jobs /> : <div />}

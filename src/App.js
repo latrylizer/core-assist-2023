@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navigation from "./Components/Navigation/Navigation";
 import "./css/App.scss";
 import Home from "./Components/Pages/Home";
@@ -16,6 +16,7 @@ import {
   Route,
 } from "react-router-dom";
 import { AuthProvider } from "./Components/Auth/Auth_context";
+import ReactGa from "react-ga";
 // const router = createBrowserRouter([
 //   {
 //     path: '/',
@@ -50,6 +51,7 @@ import { AuthProvider } from "./Components/Auth/Auth_context";
 //     element: <Dashboard />,
 //   },
 // ])
+
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route>
@@ -74,6 +76,10 @@ const router = createBrowserRouter(
 );
 
 const App = () => {
+  useEffect(() => {
+    ReactGa.initialize("G-HYCJBQS7TF");
+    ReactGa.pageview(window.location.pathname);
+  }, []);
   return (
     <AuthProvider>
       <Navigation />
