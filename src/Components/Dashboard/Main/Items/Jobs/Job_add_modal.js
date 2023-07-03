@@ -1,37 +1,38 @@
-import { React, useState, useRef } from 'react'
-import { writeData, generateId } from '../../../../Firebase/Crud'
+import { React, useState, useRef } from "react";
+import { writeData, generateId } from "../../../../Firebase/Crud";
 
 export default function JobAddModal() {
-  const job_name_ref = useRef()
-  const job_description_ref = useRef()
-  const [isJobNameEmpty, setIsJobNameEmpty] = useState(false)
-  const [isJobDescriptionEmpty, setIsJobDescriptionEmpty] = useState(false)
-  const [isLoading, setIsLoading] = useState(false)
+  const job_name_ref = useRef();
+  const job_description_ref = useRef();
+  const [isJobNameEmpty, setIsJobNameEmpty] = useState(false);
+  const [isJobDescriptionEmpty, setIsJobDescriptionEmpty] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
   async function handleOnClick() {
-    setIsJobNameEmpty(false)
-    setIsJobDescriptionEmpty(false)
-    setIsLoading(true)
-    if (job_name_ref.current.value === '') {
-      setIsJobNameEmpty(true)
-      setIsLoading(false)
-      return
+    setIsJobNameEmpty(false);
+    setIsJobDescriptionEmpty(false);
+    setIsLoading(true);
+    if (job_name_ref.current.value === "") {
+      setIsJobNameEmpty(true);
+      setIsLoading(false);
+      return;
     }
-    if (job_description_ref.current.value === '') {
-      setIsJobDescriptionEmpty(true)
-      setIsLoading(false)
-      return
+    if (job_description_ref.current.value === "") {
+      setIsJobDescriptionEmpty(true);
+      setIsLoading(false);
+      return;
     }
-    const id = await generateId('Jobs')
+    const id = await generateId("Jobs");
     const job = {
       name: job_name_ref.current.value,
       job_description: job_description_ref.current.value,
       active: true,
-    }
-    await writeData('Jobs/' + id, job)
-    alert('Job Added.')
-    job_name_ref.current.value = ''
-    job_name_ref.current.focus()
-    job_description_ref.current.value = ''
+    };
+    await writeData("Jobs/" + id, job);
+    alert("Job Added.");
+    setIsLoading(false);
+    job_name_ref.current.value = "";
+    job_name_ref.current.focus();
+    job_description_ref.current.value = "";
   }
   return (
     <div
@@ -64,8 +65,8 @@ export default function JobAddModal() {
                       type="text"
                       className={
                         !isJobNameEmpty
-                          ? 'form-control'
-                          : 'form-control is-invalid'
+                          ? "form-control"
+                          : "form-control is-invalid"
                       }
                       ref={job_name_ref}
                     />
@@ -75,8 +76,8 @@ export default function JobAddModal() {
                   <textarea
                     className={
                       !isJobDescriptionEmpty
-                        ? 'form-control'
-                        : 'form-control is-invalid'
+                        ? "form-control"
+                        : "form-control is-invalid"
                     }
                     rows="10"
                     ref={job_description_ref}
@@ -106,5 +107,5 @@ export default function JobAddModal() {
         </div>
       </div>
     </div>
-  )
+  );
 }

@@ -9,6 +9,7 @@ import Careers from "./Components/Pages/Careers";
 import Login from "./Components/Pages/Login";
 import Dashboard from "./Components/Dashboard/Dashboard";
 import PrivateRoute from "./Components/Pages/Private_route";
+import Blog from "./Components/Pages/Blog";
 import {
   createBrowserRouter,
   RouterProvider,
@@ -62,6 +63,7 @@ const router = createBrowserRouter(
       <Route path="/contact_us" element={<ContactUs />} />
       <Route path="/careers" element={<Careers />} />
       <Route path="/login" element={<Login />} />
+      <Route path="/blog" element={<Blog />} />
 
       <Route
         path="/dashboard"
