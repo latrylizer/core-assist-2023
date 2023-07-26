@@ -10,6 +10,7 @@ import Login from "./Components/Pages/Login";
 import Dashboard from "./Components/Dashboard/Dashboard";
 import PrivateRoute from "./Components/Pages/Private_route";
 import Blog from "./Components/Pages/Blog";
+import WhatAVirtualAssistantCanDo from "./Components/Pages/Blog/what_a_virtual_assistant_can_do";
 import {
   createBrowserRouter,
   RouterProvider,
@@ -64,6 +65,10 @@ const router = createBrowserRouter(
       <Route path="/careers" element={<Careers />} />
       <Route path="/login" element={<Login />} />
       <Route path="/blog" element={<Blog />} />
+      <Route
+        path="/what_a_virtual_assistant_can_do"
+        element={<WhatAVirtualAssistantCanDo />}
+      />
 
       <Route
         path="/dashboard"
