@@ -11,6 +11,8 @@ import Dashboard from "./Components/Dashboard/Dashboard";
 import PrivateRoute from "./Components/Pages/Private_route";
 import Blog from "./Components/Pages/Blog";
 import WhatAVirtualAssistantCanDo from "./Components/Pages/Blog/what_a_virtual_assistant_can_do";
+import AdvantagesAndBenefitsOfHiringAVirtualAssistant from "./Components/Pages/Blog/advantages_and_benefits_of_hiring_a_virtual_Assistant";
+import Testimonials from "./Components/Pages/Blog/testimonials";
 import {
   createBrowserRouter,
   RouterProvider,
@@ -65,11 +67,17 @@ const router = createBrowserRouter(
       <Route path="/careers" element={<Careers />} />
       <Route path="/login" element={<Login />} />
       <Route path="/blog" element={<Blog />} />
+      {/* blog */}
       <Route
         path="/what_a_virtual_assistant_can_do"
         element={<WhatAVirtualAssistantCanDo />}
       />
-
+      <Route
+        path="/advantages_and_benefits_of_hiring_a_virtual_assistant"
+        element={<AdvantagesAndBenefitsOfHiringAVirtualAssistant />}
+      />
+      <Route path="/testimonials" element={<Testimonials />}></Route>
+      {/* blog */}
       <Route
         path="/dashboard"
         element={

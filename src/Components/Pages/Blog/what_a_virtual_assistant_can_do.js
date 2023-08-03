@@ -1,10 +1,10 @@
 import React from "react";
-import vaImg from "../../../img/va_image.jpg";
+import vaTwo from "../../../img/va2.jpg";
 import benefit from "../../../img/benefits.webp";
 import Footer from "../../Footer/Footer";
 export default function what_a_virtual_assistant_can_do() {
   return (
-    <div className="container-fluid-px-0">
+    <div className="container-fluid px-0">
       <div
         style={{ height: "650px" }}
         className="container-fluid bg-dark-transparent d-flex justify-content-center align-items-center"
@@ -38,7 +38,7 @@ export default function what_a_virtual_assistant_can_do() {
             assistants include:{" "}
           </p>
           <div className="container">
-            <img src={vaImg} alt="va" style={{ width: "100%" }}></img>
+            <img src={vaTwo} alt="va" style={{ width: "100%" }}></img>
           </div>
           <ul className="lead py-4">
             <li className="py-3">
