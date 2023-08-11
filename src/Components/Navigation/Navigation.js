@@ -21,6 +21,10 @@ const nav_items = {
       address: "/contact_us",
     },
     {
+      name: "BLOG",
+      address: "/blog",
+    },
+    {
       name: "CAREERS",
       address: "/careers",
     },
