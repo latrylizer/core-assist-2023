@@ -45,7 +45,7 @@ export default function testimonials() {
                 <li className="py-3 mb-0" key={index}>
                   {item}
                 </li>
-                {index == Math.round(testimonial.length / 2) - 1 ? (
+                {index === Math.round(testimonial.length / 2) - 1 ? (
                   <img className="w-100 py-4" src={vaThree} alt="va"></img>
                 ) : (
                   <div />

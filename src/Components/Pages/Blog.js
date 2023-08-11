@@ -3,6 +3,10 @@ import vaOne from "../../img/va1.jpg";
 import vaTwo from "../../img/va2.jpg";
 import vaThree from "../../img/va3.jpg";
 import Footer from "../Footer/Footer";
+import vaFour from "../../img/va4.jpg";
+import vaFive from "../../img/va5.jpg";
+import vaSix from "../../img/va6.jpg";
+import vaSeven from "../../img/va7.jpg";
 export default function Blog() {
   const blogs = {
     content: [
@@ -26,6 +30,37 @@ export default function Blog() {
         url: "/testimonials",
         img: vaThree,
         headline: "What Our Valued Clients Have to Say...",
+      },
+      {
+        title: "Gain a Comprehensive Understanding of the CoreAssist Process!",
+        url: "/gain_a_comprehensive_understanding_of_the_coreassist_process",
+        img: vaFour,
+        headline:
+          "Step 1: Define Your Needs - Identify the specific tasks and responsibilities you want your virtual assistant or remote team member to handle...",
+      },
+      {
+        title:
+          "Navigating the Virtual World: Frequently Asked Questions for Collaborating with Remote Professionals.",
+        url: "/navigation_the_virtual_world_frequently_asked_question_for_collaborating_with_remote_professionals",
+        img: vaFive,
+        headline:
+          "What is a virtual assistant or Remote Team Member? A virtual assistant is a professional who provides remote administrative, creative, technical, or specialized support to individuals or businesses...",
+      },
+      {
+        title:
+          "Your Perfect Match: Valuable Tips for a Successful Virtual Collaboration",
+        url: "/your_perfect_match_valuable_tips_for_a_successfull_virtual_collaboration",
+        img: vaSix,
+        headline:
+          "Discover the power of the Culture Index Survey - an exciting and highly effective tool that CoreAssist uses to find your perfect Virtual Assistant or Remote Team Member...",
+      },
+      {
+        title:
+          "Unlocking Success: Expert Tips for Identifying the Perfect Candidates for Your Business Needs",
+        url: "/unlocking_success_expert_tips_for_identifying_the_perfect_candidates_for_your_business_needs",
+        img: vaSeven,
+        headline:
+          " When it comes to virtual assistants, finding the perfect match for your business is essential for a successful partnership....",
       },
     ],
   };

@@ -13,6 +13,10 @@ import Blog from "./Components/Pages/Blog";
 import WhatAVirtualAssistantCanDo from "./Components/Pages/Blog/what_a_virtual_assistant_can_do";
 import AdvantagesAndBenefitsOfHiringAVirtualAssistant from "./Components/Pages/Blog/advantages_and_benefits_of_hiring_a_virtual_Assistant";
 import Testimonials from "./Components/Pages/Blog/testimonials";
+import GainAComprehensiveUnderstanding from "./Components/Pages/Blog/gain_a_comprehensive_understanding";
+import NavigatingTheVirtualWorld from "./Components/Pages/Blog/navigating_the_virtual_world";
+import YourPerfectMatch from "./Components/Pages/Blog/your_perfect_match";
+import UnlockingSuccess from "./Components/Pages/Blog/unlocking_success";
 import {
   createBrowserRouter,
   RouterProvider,
@@ -21,40 +25,6 @@ import {
 } from "react-router-dom";
 import { AuthProvider } from "./Components/Auth/Auth_context";
 import ReactGa from "react-ga";
-// const router = createBrowserRouter([
-//   {
-//     path: '/',
-//     element: <Home />,
-//   },
-//   {
-//     path: '/home',
-//     element: <Home />,
-//   },
-//   {
-//     path: '/what_we_do',
-//     element: <WhatWeDo />,
-//   },
-//   {
-//     path: '/pricing',
-//     element: <Pricing />,
-//   },
-//   {
-//     path: '/contact_us',
-//     element: <ContactUs />,
-//   },
-//   {
-//     path: '/careers',
-//     element: <Careers />,
-//   },
-//   {
-//     path: '/login',
-//     element: <Login />,
-//   },
-//   {
-//     path: '/dashboard',
-//     element: <Dashboard />,
-//   },
-// ])
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -77,7 +47,22 @@ const router = createBrowserRouter(
         element={<AdvantagesAndBenefitsOfHiringAVirtualAssistant />}
       />
       <Route path="/testimonials" element={<Testimonials />}></Route>
-      {/* blog */}
+      <Route
+        path="/gain_a_comprehensive_understanding_of_the_coreassist_process"
+        element={<GainAComprehensiveUnderstanding />}
+      ></Route>
+      <Route
+        path="/navigation_the_virtual_world_frequently_asked_question_for_collaborating_with_remote_professionals"
+        element={<NavigatingTheVirtualWorld />}
+      ></Route>
+      <Route
+        path="/your_perfect_match_valuable_tips_for_a_successfull_virtual_collaboration"
+        element={<YourPerfectMatch />}
+      ></Route>
+      <Route
+        path="/unlocking_success_expert_tips_for_identifying_the_perfect_candidates_for_your_business_needs"
+        element={<UnlockingSuccess />}
+      ></Route>
       <Route
         path="/dashboard"
         element={
