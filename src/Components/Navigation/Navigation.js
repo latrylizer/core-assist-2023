@@ -50,6 +50,10 @@ const nav_items2 = {
       address: "/contact_us",
     },
     {
+      name: "BLOG",
+      address: "/blog",
+    },
+    {
       name: "CAREERS",
       address: "/careers",
     },
