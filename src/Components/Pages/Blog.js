@@ -7,6 +7,7 @@ import vaFour from "../../img/va4.jpg";
 import vaFive from "../../img/va5.jpg";
 import vaSix from "../../img/va6.jpg";
 import vaSeven from "../../img/va7.jpg";
+import vaEight from "../../img/va8.jpg";
 export default function Blog() {
   const blogs = {
     content: [
@@ -61,6 +62,14 @@ export default function Blog() {
         img: vaSeven,
         headline:
           " When it comes to virtual assistants, finding the perfect match for your business is essential for a successful partnership....",
+      },
+      {
+        title:
+          "Discover the Next Level of Virtual Assistance with CoreAssist: Unleashing Exceptional Services and Talent!",
+        url: "/discover_the_next_level_of_virtual_assistance_with_coreAssist_unleashing_exceptional_services_and_talent",
+        img: vaEight,
+        headline:
+          "If you already have a Virtual Assistant and are considering exploring more options, CoreAssist can open up a world of possibilities for you...",
       },
     ],
   };
