@@ -18,6 +18,7 @@ import NavigatingTheVirtualWorld from "./Components/Pages/Blog/navigating_the_vi
 import YourPerfectMatch from "./Components/Pages/Blog/your_perfect_match";
 import UnlockingSuccess from "./Components/Pages/Blog/unlocking_success";
 import DiscoverTheNextLevelOfVirtualAssistantWithCoreassist from "./Components/Pages/Blog/discover_the_next_level_of_virtual_assistant_with_coreassist";
+import UnlockingTheFullPotentialOfYourVirtualAssistant from "./Components/Pages/Blog/unlocking_the_full_potential_of_your_virtual_assistant";
 import {
   createBrowserRouter,
   RouterProvider,
@@ -67,6 +68,10 @@ const router = createBrowserRouter(
       <Route
         path="/discover_the_next_level_of_virtual_assistance_with_coreAssist_unleashing_exceptional_services_and_talent"
         element={<DiscoverTheNextLevelOfVirtualAssistantWithCoreassist />}
+      ></Route>
+      <Route
+        path="/unlocking_the_full_potential_of_your_virtual_assistant_invaluable_insights_and_strategies_for_seamless_collboration_and_productivity"
+        element={<UnlockingTheFullPotentialOfYourVirtualAssistant />}
       ></Route>
       <Route
         path="/dashboard"
