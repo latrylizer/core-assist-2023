@@ -19,6 +19,7 @@ import YourPerfectMatch from "./Components/Pages/Blog/your_perfect_match";
 import UnlockingSuccess from "./Components/Pages/Blog/unlocking_success";
 import DiscoverTheNextLevelOfVirtualAssistantWithCoreassist from "./Components/Pages/Blog/discover_the_next_level_of_virtual_assistant_with_coreassist";
 import UnlockingTheFullPotentialOfYourVirtualAssistant from "./Components/Pages/Blog/unlocking_the_full_potential_of_your_virtual_assistant";
+import MakingTheRightChoice from "./Components/Pages/Blog/making_the_right_choice";
 import {
   createBrowserRouter,
   RouterProvider,
@@ -72,6 +73,10 @@ const router = createBrowserRouter(
       <Route
         path="/unlocking_the_full_potential_of_your_virtual_assistant_invaluable_insights_and_strategies_for_seamless_collboration_and_productivity"
         element={<UnlockingTheFullPotentialOfYourVirtualAssistant />}
+      ></Route>
+      <Route
+        path="/making_the_right_choice_expert_insights_for_deciding_between_a_virtual_assistant_remote_team_member"
+        element={<MakingTheRightChoice />}
       ></Route>
       <Route
         path="/dashboard"

@@ -9,6 +9,7 @@ import vaSix from "../../img/va6.jpg";
 import vaSeven from "../../img/va7.jpg";
 import vaEight from "../../img/va8.jpg";
 import vaNine from "../../img/va9.jpg";
+import vaTen from "../../img/va10.jpg";
 export default function Blog() {
   const blogs = {
     content: [
@@ -79,6 +80,14 @@ export default function Blog() {
         img: vaNine,
         headline:
           "As you continue to experience the positive impact they bring to your business, it's time to explore the boundless opportunities for long-term success and expansion...",
+      },
+      {
+        title:
+          "Making the Right Choice: Expert Insights for Deciding Between a Virtual Assistant or Remote Team Member",
+        url: "/making_the_right_choice_expert_insights_for_deciding_between_a_virtual_assistant_remote_team_member",
+        img: vaTen,
+        headline:
+          "For those doubting whether to get a Virtual Assistant, here’s our top 5 list to help you decide...",
       },
     ],
   };
