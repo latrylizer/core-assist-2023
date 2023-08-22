@@ -16,7 +16,6 @@ export default function testimonials() {
     `I think CoreAssist is a good program because it offers companies a chance to hire people from different backgrounds and create a diverse environment within your company. ~Chandra~`,
     `They are a very important members of our team and hardworking individuals. ~Caitlin - Manager~`,
     `“Rosemay is an absolute delight to work with, and is always helpful.” ~Shane - Director~`,
-    `Gain a Comprehensive Understanding of the CoreAssist Process!`,
   ];
   return (
     <div className="container-fluid px-0">

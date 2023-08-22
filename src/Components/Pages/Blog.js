@@ -10,6 +10,8 @@ import vaSeven from "../../img/va7.jpg";
 import vaEight from "../../img/va8.jpg";
 import vaNine from "../../img/va9.jpg";
 import vaTen from "../../img/va10.jpg";
+import vaEleven from "../../img/va11.jpg";
+import vaTwelve from "../../img/va12.jpg";
 export default function Blog() {
   const blogs = {
     content: [
@@ -88,6 +90,18 @@ export default function Blog() {
         img: vaTen,
         headline:
           "For those doubting whether to get a Virtual Assistant, here’s our top 5 list to help you decide...",
+      },
+      {
+        title: "Reasons Why Business Owners Switch to a Virtual Assistant",
+        url: "/reasons_why_business_owners_switch_to_a_virtual_assistant",
+        img: vaEleven,
+        headline: "",
+      },
+      {
+        title: "Things to Consider in Looking for the Best Recruiting Agency",
+        url: "/things_to_consider_in_looking_for_the_best_recruiting_agency",
+        img: vaTwelve,
+        headline: "",
       },
     ],
   };

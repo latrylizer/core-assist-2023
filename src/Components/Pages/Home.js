@@ -1,17 +1,17 @@
-import React from 'react'
-import Footer from '../Footer/Footer'
+import React from "react";
+import Footer from "../Footer/Footer";
 const Home = () => {
   return (
     <>
       <div
-        style={{ height: '850px' }}
+        style={{ height: "850px" }}
         className="container-fluid bg-dark-transparent d-flex justify-content-center align-items-center pl-0 pr-0"
       >
         <div className="col-md-4">
           <p className="display-4 text-light">
             READY TO TAKE YOUR BUSINESS TO NEW HEIGHTS?
           </p>
-          <button className="btn bg-orange btn-block text-light lead">
+          <button className="btn btn-orange btn-block text-light lead">
             <a className="text-light lead" href="./contact_us.html">
               CONTACT US
             </a>
@@ -35,7 +35,7 @@ const Home = () => {
           <div className="row">
             <div
               className="card d-flex align-items-center justify-content-center ml-2"
-              style={{ width: '16rem', height: '16rem' }}
+              style={{ width: "16rem", height: "16rem" }}
             >
               <i className="fas fa-hands-helping display-4 text-orange"></i>
             </div>
@@ -72,7 +72,7 @@ const Home = () => {
             </div>
             <div
               className="card d-flex align-items-center justify-content-center ml-2"
-              style={{ width: '16rem', height: '16rem' }}
+              style={{ width: "16rem", height: "16rem" }}
             >
               <i className="fas fa-hands-helping display-4 text-orange"></i>
             </div>
@@ -80,7 +80,7 @@ const Home = () => {
           <div className="row">
             <div
               className="card d-flex align-items-center justify-content-center ml-2"
-              style={{ width: '16rem', height: '16rem' }}
+              style={{ width: "16rem", height: "16rem" }}
             >
               <i className="fas fa-hands-helping display-4 text-orange"></i>
             </div>
@@ -228,6 +228,6 @@ const Home = () => {
       </div>
       <Footer />
     </>
-  )
-}
-export default Home
+  );
+};
+export default Home;
