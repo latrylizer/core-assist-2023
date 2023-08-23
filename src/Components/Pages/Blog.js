@@ -12,6 +12,8 @@ import vaNine from "../../img/va9.jpg";
 import vaTen from "../../img/va10.jpg";
 import vaEleven from "../../img/va11.jpg";
 import vaTwelve from "../../img/va12.jpg";
+import vaThirteen from "../../img/va13.png";
+import vaFourteen from "../../img/va14.jpg";
 export default function Blog() {
   const blogs = {
     content: [
@@ -103,6 +105,19 @@ export default function Blog() {
         img: vaTwelve,
         headline: "",
       },
+      {
+        title: "Benefits of Hiring a Virtual Assistant",
+        url: "/benefits_of_hiring_virtual_assistant",
+        img: vaThirteen,
+        headline: "",
+      },
+
+      {
+        title: "Choosing the perfect virtual recruitment agency",
+        url: "/choosing_the_perfect_virtual_recruitnent_agency",
+        img: vaFourteen,
+        headline: "",
+      },
     ],
   };
   return (
@@ -122,7 +137,7 @@ export default function Blog() {
       </div>
       <div className="Container-fluid bg-light">
         <header className="display-5 text-center text-uppercase text-orange py-4">
-          Tips on hiring virtual assistant
+          CoreAssist Blog
         </header>
         <div className="container py-5">
           <div className="row">

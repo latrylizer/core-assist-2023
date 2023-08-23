@@ -22,6 +22,9 @@ import UnlockingTheFullPotentialOfYourVirtualAssistant from "./Components/Pages/
 import MakingTheRightChoice from "./Components/Pages/Blog/making_the_right_choice";
 import ReasonsWhyBusinessOwnersSwitchToAVirtualAssistant from "./Components/Pages/Blog/reasons_why_business_owners_switch_to_a_virtual_assistant";
 import ThingsToConsiderInLookingForTheBestRecruitingAgency from "./Components/Pages/Blog/things_to_consider_in_looking_for_the_best_recruiting_agency";
+import BenefitsOfHiringVirtualAssistant from "./Components/Pages/Blog/benefits_of_hiring_virtual_assistant";
+import ChoosingThePerfectVirtualRecruitnentAgency from "./Components/Pages/Blog/choosing_the_perfect_virtual_recruitnent_agency";
+
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
 import {
@@ -89,6 +92,14 @@ const router = createBrowserRouter(
       <Route
         path="/things_to_consider_in_looking_for_the_best_recruiting_agency"
         element={<ThingsToConsiderInLookingForTheBestRecruitingAgency />}
+      ></Route>
+      <Route
+        path="/benefits_of_hiring_virtual_assistant"
+        element={<BenefitsOfHiringVirtualAssistant />}
+      ></Route>
+      <Route
+        path="/choosing_the_perfect_virtual_recruitnent_agency"
+        element={<ChoosingThePerfectVirtualRecruitnentAgency />}
       ></Route>
       <Route
         path="/dashboard"
