@@ -15,6 +15,8 @@ import vaTwelve from "../../img/va12.jpg";
 import vaThirteen from "../../img/va13.png";
 import vaFourteen from "../../img/va14.jpg";
 import vaFifteen from "../../img/va15.jpg";
+import vaSixteen from "../../img/va16.jpeg";
+import vaSeventeen from "../../img/va17.jpg";
 export default function Blog() {
   const blogs = {
     content: [
@@ -124,6 +126,18 @@ export default function Blog() {
           "What are the important things to consider in hiring perfect virtual assistants?",
         url: "/what_are_the_important_things_to_consider_in_hiring_perfect_virtual_assistants",
         img: vaFifteen,
+        headline: "",
+      },
+      {
+        title: "Grow your business with us",
+        url: "/grow_your_business_with_us",
+        img: vaSixteen,
+        headline: "",
+      },
+      {
+        title: "Why business owners choose virtual assistants",
+        url: "/why_business_owners_choose_virtual_assistants",
+        img: vaSeventeen,
         headline: "",
       },
     ],

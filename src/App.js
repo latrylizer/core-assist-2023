@@ -25,6 +25,8 @@ import ThingsToConsiderInLookingForTheBestRecruitingAgency from "./Components/Pa
 import BenefitsOfHiringVirtualAssistant from "./Components/Pages/Blog/benefits_of_hiring_virtual_assistant";
 import ChoosingThePerfectVirtualRecruitnentAgency from "./Components/Pages/Blog/choosing_the_perfect_virtual_recruitnent_agency";
 import WhatAreTheImportantThingsToConsiderInHiringPerfectVirtualAssistants from "./Components/Pages/Blog/what_are_the_important_things_to_consider_in_hiring_perfect_virtual_assistants";
+import GrowYourBusinessWithUs from "./Components/Pages/Blog/grow_your_business_with_us";
+import WhyBusinessOwnersChooseVirtualAssistants from "./Components/Pages/Blog/why_business_owners_choose_virtual_assistants";
 
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
@@ -109,6 +111,17 @@ const router = createBrowserRouter(
           <WhatAreTheImportantThingsToConsiderInHiringPerfectVirtualAssistants />
         }
       ></Route>
+
+      <Route
+        path="/grow_your_business_with_us"
+        element={<GrowYourBusinessWithUs />}
+      ></Route>
+
+      <Route
+        path="/why_business_owners_choose_virtual_assistants"
+        element={<WhyBusinessOwnersChooseVirtualAssistants />}
+      ></Route>
+
       <Route
         path="/dashboard"
         element={

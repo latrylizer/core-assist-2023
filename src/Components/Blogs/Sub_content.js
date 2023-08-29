@@ -22,7 +22,7 @@ export default function SubContent(props) {
             {props.Content.title}
           </header>
           <div className="d-lg-flex justify-content-center">
-            <ul className="lead mb-0 align-self-center">
+            <ul className="lead mb-0 align-self-center py-4">
               {props.Content.list.map((item, index) => (
                 <li key={index}>{item}</li>
               ))}
