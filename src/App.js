@@ -27,6 +27,9 @@ import ChoosingThePerfectVirtualRecruitnentAgency from "./Components/Pages/Blog/
 import WhatAreTheImportantThingsToConsiderInHiringPerfectVirtualAssistants from "./Components/Pages/Blog/what_are_the_important_things_to_consider_in_hiring_perfect_virtual_assistants";
 import GrowYourBusinessWithUs from "./Components/Pages/Blog/grow_your_business_with_us";
 import WhyBusinessOwnersChooseVirtualAssistants from "./Components/Pages/Blog/why_business_owners_choose_virtual_assistants";
+import ChoosingTheBestVirtualStaffingAgency from "./Components/Pages/Blog/choosing_the_best_virtual_staffing_agency";
+import KeysToConsiderWhenHiringAVirtualAssistant from "./Components/Pages/Blog/keys_to_consider_when_hiring_a_virtual_assistant";
+import FiveTipsForChoosingTheRightVirtualAssistant from "./Components/Pages/Blog/five_tips_for_choosing_the_right_virtual_assistant";
 
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
@@ -104,24 +107,32 @@ const router = createBrowserRouter(
         path="/choosing_the_perfect_virtual_recruitnent_agency"
         element={<ChoosingThePerfectVirtualRecruitnentAgency />}
       ></Route>
-
       <Route
         path="/what_are_the_important_things_to_consider_in_hiring_perfect_virtual_assistants"
         element={
           <WhatAreTheImportantThingsToConsiderInHiringPerfectVirtualAssistants />
         }
       ></Route>
-
       <Route
         path="/grow_your_business_with_us"
         element={<GrowYourBusinessWithUs />}
       ></Route>
-
       <Route
         path="/why_business_owners_choose_virtual_assistants"
         element={<WhyBusinessOwnersChooseVirtualAssistants />}
       ></Route>
-
+      <Route
+        path="/choosing_the_best_virtual_staffing_agency"
+        element={<ChoosingTheBestVirtualStaffingAgency />}
+      ></Route>
+      <Route
+        path="/keys_to_consider_when_hiring_a_virtual_assistant"
+        element={<KeysToConsiderWhenHiringAVirtualAssistant />}
+      ></Route>
+      <Route
+        path="/five_tips_for_choosing_the_right_virtual_assistant"
+        element={<FiveTipsForChoosingTheRightVirtualAssistant />}
+      ></Route>
       <Route
         path="/dashboard"
         element={

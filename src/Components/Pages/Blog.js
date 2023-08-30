@@ -17,6 +17,9 @@ import vaFourteen from "../../img/va14.jpg";
 import vaFifteen from "../../img/va15.jpg";
 import vaSixteen from "../../img/va16.jpeg";
 import vaSeventeen from "../../img/va17.jpg";
+import vaEighteen from "../../img/va18.jpg";
+import vaNineteen from "../../img/va19.jpg";
+import vaTwenty from "../../img/va20.jpg";
 export default function Blog() {
   const blogs = {
     content: [
@@ -138,6 +141,24 @@ export default function Blog() {
         title: "Why business owners choose virtual assistants",
         url: "/why_business_owners_choose_virtual_assistants",
         img: vaSeventeen,
+        headline: "",
+      },
+      {
+        title: "Choosing the best virtual staffing agency",
+        url: "/choosing_the_best_virtual_staffing_agency",
+        img: vaEighteen,
+        headline: "",
+      },
+      {
+        title: "Keys to consider when hiring a virtual assistant",
+        url: "/keys_to_consider_when_hiring_a_virtual_assistant",
+        img: vaNineteen,
+        headline: "",
+      },
+      {
+        title: "Five tips for choosing the right virtual assistant",
+        url: "/five_tips_for_choosing_the_right_virtual_assistant",
+        img: vaTwenty,
         headline: "",
       },
     ],
