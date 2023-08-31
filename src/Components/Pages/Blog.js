@@ -20,6 +20,9 @@ import vaSeventeen from "../../img/va17.jpg";
 import vaEighteen from "../../img/va18.jpg";
 import vaNineteen from "../../img/va19.jpg";
 import vaTwenty from "../../img/va20.jpg";
+import vaTwentyone from "../../img/va21.jpg";
+import vaTwentytwo from "../../img/va22.png";
+import vaTwentythree from "../../img/va23.jpg";
 export default function Blog() {
   const blogs = {
     content: [
@@ -159,6 +162,26 @@ export default function Blog() {
         title: "Five tips for choosing the right virtual assistant",
         url: "/five_tips_for_choosing_the_right_virtual_assistant",
         img: vaTwenty,
+        headline: "",
+      },
+      {
+        title:
+          "How to choose the right virtual assistant for your business boost efficiency and success",
+        url: "/how_to_choose_the_right_virtual_assistant_for_your_business_boost_efficiency_and_success",
+        img: vaTwentyone,
+        headline: "",
+      },
+      {
+        title: "Why coreassist?",
+        url: "/why_coreassist",
+        img: vaTwentytwo,
+        headline: "",
+      },
+      {
+        title:
+          "When hiring a virtual assistant for your business there are several important factors to consider. Here are some key points to keep in mind",
+        url: "/when_hiring_a_virtual_assistant_for_your_business_there_are_several_important_factors_to_consider_here_are_some_key_points_to_keep_in_mind",
+        img: vaTwentythree,
         headline: "",
       },
     ],

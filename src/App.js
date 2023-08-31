@@ -30,6 +30,9 @@ import WhyBusinessOwnersChooseVirtualAssistants from "./Components/Pages/Blog/wh
 import ChoosingTheBestVirtualStaffingAgency from "./Components/Pages/Blog/choosing_the_best_virtual_staffing_agency";
 import KeysToConsiderWhenHiringAVirtualAssistant from "./Components/Pages/Blog/keys_to_consider_when_hiring_a_virtual_assistant";
 import FiveTipsForChoosingTheRightVirtualAssistant from "./Components/Pages/Blog/five_tips_for_choosing_the_right_virtual_assistant";
+import HowToChooseTheRightVirtualAssistantForYourBusinessBoostEfficiencyAndSuccess from "./Components/Pages/Blog/how_to_choose_the_right_virtual_assistant_for_your_business_boost_efficiency_and_success";
+import WhyCoreassist from "./Components/Pages/Blog/why_coreassist";
+import WhenHiringAVirtualAssistantForYourBusinessThereAreSeveralImportantFactorsToConsiderHereAreSomeKeyPointsToKeepInMind from "./Components/Pages/Blog/when_hiring_a_virtual_assistant_for_your_business_there_are_several_important_factors_to_consider_here_are_some_key_points_to_keep_in_mind";
 
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
@@ -132,6 +135,19 @@ const router = createBrowserRouter(
       <Route
         path="/five_tips_for_choosing_the_right_virtual_assistant"
         element={<FiveTipsForChoosingTheRightVirtualAssistant />}
+      ></Route>
+      <Route
+        path="/how_to_choose_the_right_virtual_assistant_for_your_business_boost_efficiency_and_success"
+        element={
+          <HowToChooseTheRightVirtualAssistantForYourBusinessBoostEfficiencyAndSuccess />
+        }
+      ></Route>
+      <Route path="/why_coreassist?" element={<WhyCoreassist />}></Route>
+      <Route
+        path="/when_hiring_a_virtual_assistant_for_your_business_there_are_several_important_factors_to_consider_here_are_some_key_points_to_keep_in_mind"
+        element={
+          <WhenHiringAVirtualAssistantForYourBusinessThereAreSeveralImportantFactorsToConsiderHereAreSomeKeyPointsToKeepInMind />
+        }
       ></Route>
       <Route
         path="/dashboard"
