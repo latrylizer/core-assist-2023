@@ -1,54 +1,54 @@
-import React, { useEffect, useRef, useState } from 'react'
-import Footer from '../Footer/Footer'
-import { useSelector, useDispatch } from 'react-redux'
-import { getDatabase, ref, onValue } from 'firebase/database'
-import { uploadFile, writeData, generateId } from '../Firebase/Crud'
-import { getJobs } from '../../Redux/Reducers/jobs'
+import React, { useEffect, useRef, useState } from "react";
+import Footer from "../Footer/Footer";
+import { useSelector, useDispatch } from "react-redux";
+import { getDatabase, ref, onValue } from "firebase/database";
+import { uploadFile, writeData, generateId } from "../Firebase/Crud";
+import { getJobs } from "../../Redux/Reducers/jobs";
 const Careers = () => {
-  const jobs = useSelector((state) => state.JobCollection.Jobs.payload)
-  const dispatch = useDispatch()
-  const [selectedFile, setSelectedFile] = useState(null)
-  const [error, setError] = useState('')
-  const [loading, setLoading] = useState(false)
-  const email_ref = useRef()
-  const first_name_ref = useRef()
-  const middle_name_ref = useRef()
-  const last_name_ref = useRef()
-  const date_of_birth_ref = useRef()
-  const contact_no_ref = useRef()
-  const position_ref = useRef()
-  const salary_ref = useRef()
-  const time_of_work_ref = useRef()
-  const referred_by_ref = useRef()
-  const work_experience_remote_ref = useRef()
-  const power_outage_ref = useRef()
-  const data_outage_ref = useRef()
-  const employment_status_ref = useRef()
-  const form_ref = useRef()
-  const source_of_application_ref = useRef()
-  const crm_experiece_ref = useRef()
-  const candidate_essay_ref = useRef()
+  const jobs = useSelector((state) => state.JobCollection.Jobs.payload);
+  const dispatch = useDispatch();
+  const [selectedFile, setSelectedFile] = useState(null);
+  const [error, setError] = useState("");
+  const [loading, setLoading] = useState(false);
+  const email_ref = useRef();
+  const first_name_ref = useRef();
+  const middle_name_ref = useRef();
+  const last_name_ref = useRef();
+  const date_of_birth_ref = useRef();
+  const contact_no_ref = useRef();
+  const position_ref = useRef();
+  // const salary_ref = useRef();
+  const time_of_work_ref = useRef();
+  const referred_by_ref = useRef();
+  const work_experience_remote_ref = useRef();
+  const power_outage_ref = useRef();
+  const data_outage_ref = useRef();
+  const employment_status_ref = useRef();
+  const form_ref = useRef();
+  const source_of_application_ref = useRef();
+  const crm_experiece_ref = useRef();
+  const candidate_essay_ref = useRef();
 
-  const [selectedJobDescription, setSelectedJobDescription] = useState('')
+  const [selectedJobDescription, setSelectedJobDescription] = useState("");
   function checkPosition() {
     for (var job in jobs) {
       if (jobs[job].name === position_ref.current.value) {
-        setSelectedJobDescription(jobs[job].job_description)
+        setSelectedJobDescription(jobs[job].job_description);
       }
     }
   }
   useEffect(() => {
-    checkPosition()
-  }, [jobs])
+    checkPosition();
+  }, [jobs]);
   useEffect(() => {
     /*eslint-disable */
-    onValue(ref(getDatabase(), 'Jobs'), (data) => {
+    onValue(ref(getDatabase(), "Jobs"), (data) => {
       // setLoading(true)
 
-      dispatch(getJobs(data.val()))
+      dispatch(getJobs(data.val()));
       //  setLoading(false)
-    })
-  }, [])
+    });
+  }, []);
   function getAllInputs(fileInfo) {
     const inputs = {
       email: email_ref.current.value,
@@ -58,7 +58,8 @@ const Careers = () => {
       date_of_birth: date_of_birth_ref.current.value,
       contact_no: contact_no_ref.current.value,
       position: position_ref.current.value,
-      salary: salary_ref.current.value,
+      // salary: salary_ref.current.value,
+      salary: "0.00",
       work_experience_remote: work_experience_remote_ref.current.value,
       power_outage: power_outage_ref.current.value,
       data_outage: data_outage_ref.current.value,
@@ -71,29 +72,29 @@ const Careers = () => {
       source_of_application: source_of_application_ref.current.value,
       time_of_work: time_of_work_ref.current.value,
       candidate_essay: candidate_essay_ref.current.value,
-    }
-    return inputs
+    };
+    return inputs;
   }
   async function handleOnSubmit(e) {
-    e.preventDefault()
+    e.preventDefault();
     try {
-      setError('')
-      setLoading(true)
-      const key = await generateId('Applicant')
-      const fileInfo = await uploadResume(key)
-      const inputs = await getAllInputs(fileInfo)
+      setError("");
+      setLoading(true);
+      const key = await generateId("Applicant");
+      const fileInfo = await uploadResume(key);
+      const inputs = await getAllInputs(fileInfo);
 
-      await writeData('Applicant/' + key, inputs)
-      alert('Applicant Added')
-      setLoading(false)
-      form_ref.current.reset()
+      await writeData("Applicant/" + key, inputs);
+      alert("Applicant Added");
+      setLoading(false);
+      form_ref.current.reset();
     } catch {
-      setError('Submission failed')
-      setLoading(false)
+      setError("Submission failed");
+      setLoading(false);
     }
   }
   async function uploadResume(key) {
-    return await uploadFile(selectedFile, key)
+    return await uploadFile(selectedFile, key);
   }
 
   return (
@@ -104,7 +105,7 @@ const Careers = () => {
         </header>
         <div className="container d-flex justify-content-center">
           <div className="col-md-10">
-            {error !== '' && <div className="alert alert-danger">{error}</div>}
+            {error !== "" && <div className="alert alert-danger">{error}</div>}
             <form ref={form_ref} onSubmit={handleOnSubmit}>
               <div className="card">
                 <div className="card-body">
@@ -223,7 +224,7 @@ const Careers = () => {
                         </div>
                       </div>
 
-                      <div className="col-md mb-3">
+                      {/* <div className="col-md mb-3">
                         <label className="mb-3">
                           What is your expected monthly salary range?
                         </label>
@@ -238,7 +239,7 @@ const Careers = () => {
                           <option>Php 30,000 - Php 40,000 </option>
                           <option>Php 40,000 and above </option>
                         </select>
-                      </div>
+                      </div> */}
                       <div className="col-md mb-3">
                         <label className="mb-3">
                           How much time can you allocate to work per week?
@@ -409,7 +410,7 @@ const Careers = () => {
                       accept=".doc,.docx,application/msword,.pdf"
                       required
                       onChange={(e) => {
-                        setSelectedFile(e.target.files[0])
+                        setSelectedFile(e.target.files[0]);
                       }}
                     />
                   </div>
@@ -458,6 +459,6 @@ const Careers = () => {
       </div>
       <Footer />
     </>
-  )
-}
-export default Careers
+  );
+};
+export default Careers;

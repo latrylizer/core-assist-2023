@@ -23,6 +23,9 @@ import vaTwenty from "../../img/va20.jpg";
 import vaTwentyone from "../../img/va21.jpg";
 import vaTwentytwo from "../../img/va22.png";
 import vaTwentythree from "../../img/va23.jpg";
+import vaTwentyfour from "../../img/va24.jpg";
+import vaTwentyfive from "../../img/va25.jpeg";
+import vaTwentysix from "../../img/va16.jpeg";
 export default function Blog() {
   const blogs = {
     content: [
@@ -182,6 +185,24 @@ export default function Blog() {
           "When hiring a virtual assistant for your business there are several important factors to consider. Here are some key points to keep in mind",
         url: "/when_hiring_a_virtual_assistant_for_your_business_there_are_several_important_factors_to_consider_here_are_some_key_points_to_keep_in_mind",
         img: vaTwentythree,
+        headline: "",
+      },
+      {
+        title: "Advantages of hiring a virtual assistant",
+        url: "/advantages_of_hiring_a_virtual_assistant",
+        img: vaTwentyfour,
+        headline: "",
+      },
+      {
+        title: "What are the benefits of hiring a virtual assistant",
+        url: "/what_are_the_benefits_of_hiring_a_virtual_assistant",
+        img: vaTwentyfive,
+        headline: "",
+      },
+      {
+        title: "How to Choose the Right Virtual Assistant for Your Business",
+        url: "/how_to_choose_the_right_virtual_assistant_for_your_business",
+        img: vaTwentysix,
         headline: "",
       },
     ],

@@ -33,6 +33,9 @@ import FiveTipsForChoosingTheRightVirtualAssistant from "./Components/Pages/Blog
 import HowToChooseTheRightVirtualAssistantForYourBusinessBoostEfficiencyAndSuccess from "./Components/Pages/Blog/how_to_choose_the_right_virtual_assistant_for_your_business_boost_efficiency_and_success";
 import WhyCoreassist from "./Components/Pages/Blog/why_coreassist";
 import WhenHiringAVirtualAssistantForYourBusinessThereAreSeveralImportantFactorsToConsiderHereAreSomeKeyPointsToKeepInMind from "./Components/Pages/Blog/when_hiring_a_virtual_assistant_for_your_business_there_are_several_important_factors_to_consider_here_are_some_key_points_to_keep_in_mind";
+import AdvantagesOfHiringAVirtualAssistant from "./Components/Pages/Blog/advantages_of_hiring_a_virtual_assistant";
+import WhatAreTheBenefitsOfHiringAVirtualAssistant from "./Components/Pages/Blog/what_are_the_benefits_of_hiring_a_virtual_assistant";
+import HowToChooseTheRightVirtualAssistantForYourBusiness from "./Components/Pages/Blog/how_to_choose_the_right_virtual_assistant_for_your_business";
 
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
@@ -148,6 +151,18 @@ const router = createBrowserRouter(
         element={
           <WhenHiringAVirtualAssistantForYourBusinessThereAreSeveralImportantFactorsToConsiderHereAreSomeKeyPointsToKeepInMind />
         }
+      ></Route>
+      <Route
+        path="advantages_of_hiring_a_virtual_assistant"
+        element={<AdvantagesOfHiringAVirtualAssistant />}
+      ></Route>
+      <Route
+        path="what_are_the_benefits_of_hiring_a_virtual_assistant"
+        element={<WhatAreTheBenefitsOfHiringAVirtualAssistant />}
+      ></Route>
+      <Route
+        path="how_to_choose_the_right_virtual_assistant_for_your_business"
+        element={<HowToChooseTheRightVirtualAssistantForYourBusiness />}
       ></Route>
       <Route
         path="/dashboard"
