@@ -1,7 +1,7 @@
 import React from "react";
 import vaTwenty from "../../../img/va20.jpg";
 import SubContent from "../../Blogs/Sub_content";
-export default function five_tips_for_choosing_the_right_virtual_assistant() {
+export default function ten_tips_for_choosing_the_right_virtual_assistant() {
   const content = {
     list: [
       "Determine Your Specific Needs",
@@ -9,8 +9,13 @@ export default function five_tips_for_choosing_the_right_virtual_assistant() {
       "Assess Communication and Availability",
       "Review Pricing and Flexibility",
       "Seek Professionalism and Trustworthiness",
+      "Understand Your Needs",
+      "Check Their References",
+      "Determine Their Niche",
+      "Meet With Your Potentials",
+      "Be Readily Available",
     ],
-    title: "Five tips for choosing the right virtual assistant",
+    title: "Ten tips for choosing the right virtual assistant",
     img: vaTwenty,
   };
   return <SubContent Content={content} />;

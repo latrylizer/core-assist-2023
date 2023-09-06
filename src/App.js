@@ -29,13 +29,16 @@ import GrowYourBusinessWithUs from "./Components/Pages/Blog/grow_your_business_w
 import WhyBusinessOwnersChooseVirtualAssistants from "./Components/Pages/Blog/why_business_owners_choose_virtual_assistants";
 import ChoosingTheBestVirtualStaffingAgency from "./Components/Pages/Blog/choosing_the_best_virtual_staffing_agency";
 import KeysToConsiderWhenHiringAVirtualAssistant from "./Components/Pages/Blog/keys_to_consider_when_hiring_a_virtual_assistant";
-import FiveTipsForChoosingTheRightVirtualAssistant from "./Components/Pages/Blog/five_tips_for_choosing_the_right_virtual_assistant";
+import TenTipsForChoosingTheRightVirtualAssistant from "./Components/Pages/Blog/ten_tips_for_choosing_the_right_virtual_assistant";
 import HowToChooseTheRightVirtualAssistantForYourBusinessBoostEfficiencyAndSuccess from "./Components/Pages/Blog/how_to_choose_the_right_virtual_assistant_for_your_business_boost_efficiency_and_success";
 import WhyCoreassist from "./Components/Pages/Blog/why_coreassist";
 import WhenHiringAVirtualAssistantForYourBusinessThereAreSeveralImportantFactorsToConsiderHereAreSomeKeyPointsToKeepInMind from "./Components/Pages/Blog/when_hiring_a_virtual_assistant_for_your_business_there_are_several_important_factors_to_consider_here_are_some_key_points_to_keep_in_mind";
 import AdvantagesOfHiringAVirtualAssistant from "./Components/Pages/Blog/advantages_of_hiring_a_virtual_assistant";
 import WhatAreTheBenefitsOfHiringAVirtualAssistant from "./Components/Pages/Blog/what_are_the_benefits_of_hiring_a_virtual_assistant";
 import HowToChooseTheRightVirtualAssistantForYourBusiness from "./Components/Pages/Blog/how_to_choose_the_right_virtual_assistant_for_your_business";
+import TopTenReasonWhySuccessfulEntrepreneursHireVirtualAssistants from "./Components/Pages/Blog/top_ten_reason_why_successful_entrepreneurs_hire_virtual_assistants";
+import TenBenefitsOfHiringAVirtualAssistant from "./Components/Pages/Blog/Ten_benefits_of_hiring_a_virtual_assistant";
+import FiveWaysAVirtualAssistantCanMakeYouMoreProductive from "./Components/Pages/Blog/five_ways_a_virtual_assistant_can_make_you_more_productive";
 
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
@@ -136,8 +139,8 @@ const router = createBrowserRouter(
         element={<KeysToConsiderWhenHiringAVirtualAssistant />}
       ></Route>
       <Route
-        path="/five_tips_for_choosing_the_right_virtual_assistant"
-        element={<FiveTipsForChoosingTheRightVirtualAssistant />}
+        path="/ten_tips_for_choosing_the_right_virtual_assistant"
+        element={<TenTipsForChoosingTheRightVirtualAssistant />}
       ></Route>
       <Route
         path="/how_to_choose_the_right_virtual_assistant_for_your_business_boost_efficiency_and_success"
@@ -163,6 +166,20 @@ const router = createBrowserRouter(
       <Route
         path="how_to_choose_the_right_virtual_assistant_for_your_business"
         element={<HowToChooseTheRightVirtualAssistantForYourBusiness />}
+      ></Route>
+      <Route
+        path="top_ten_reason_why_successful_entrepreneurs_hire_virtual_assistants"
+        element={
+          <TopTenReasonWhySuccessfulEntrepreneursHireVirtualAssistants />
+        }
+      ></Route>
+      <Route
+        path="Ten_benefits_of_hiring_a_virtual_assistant"
+        element={<TenBenefitsOfHiringAVirtualAssistant />}
+      ></Route>
+      <Route
+        path="five_ways_a_virtual_assistant_can_make_you_more_productive"
+        element={<FiveWaysAVirtualAssistantCanMakeYouMoreProductive />}
       ></Route>
       <Route
         path="/dashboard"

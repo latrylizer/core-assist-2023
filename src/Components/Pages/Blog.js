@@ -25,7 +25,10 @@ import vaTwentytwo from "../../img/va22.png";
 import vaTwentythree from "../../img/va23.jpg";
 import vaTwentyfour from "../../img/va24.jpg";
 import vaTwentyfive from "../../img/va25.jpeg";
-import vaTwentysix from "../../img/va16.jpeg";
+import vaTwentysix from "../../img/va26.jpg";
+import vaTwentyseven from "../../img/va27.jpg";
+import vaTwentyeight from "../../img/va28.jpg";
+import vaTwentynine from "../../img/va29.jpg";
 export default function Blog() {
   const blogs = {
     content: [
@@ -162,8 +165,8 @@ export default function Blog() {
         headline: "",
       },
       {
-        title: "Five tips for choosing the right virtual assistant",
-        url: "/five_tips_for_choosing_the_right_virtual_assistant",
+        title: "Ten tips for choosing the right virtual assistant",
+        url: "/ten_tips_for_choosing_the_right_virtual_assistant",
         img: vaTwenty,
         headline: "",
       },
@@ -203,6 +206,25 @@ export default function Blog() {
         title: "How to Choose the Right Virtual Assistant for Your Business",
         url: "/how_to_choose_the_right_virtual_assistant_for_your_business",
         img: vaTwentysix,
+        headline: "",
+      },
+      {
+        title:
+          "Top ten reason why successful enterpreneurs hire virtual assistants",
+        url: "/top_ten_reason_why_successful_entrepreneurs_hire_virtual_assistants",
+        img: vaTwentyseven,
+        headline: "",
+      },
+      {
+        title: "Ten benefits of hiring a virtual assistant",
+        url: "/Ten_benefits_of_hiring_a_virtual_assistant",
+        img: vaTwentyeight,
+        headline: "",
+      },
+      {
+        title: "Five ways a virtual assistant can make you more productive",
+        url: "/five_ways_a_virtual_assistant_can_make_you_more_productive",
+        img: vaTwentynine,
         headline: "",
       },
     ],
