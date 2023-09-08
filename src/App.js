@@ -39,6 +39,7 @@ import HowToChooseTheRightVirtualAssistantForYourBusiness from "./Components/Pag
 import TopTenReasonWhySuccessfulEntrepreneursHireVirtualAssistants from "./Components/Pages/Blog/top_ten_reason_why_successful_entrepreneurs_hire_virtual_assistants";
 import TenBenefitsOfHiringAVirtualAssistant from "./Components/Pages/Blog/Ten_benefits_of_hiring_a_virtual_assistant";
 import FiveWaysAVirtualAssistantCanMakeYouMoreProductive from "./Components/Pages/Blog/five_ways_a_virtual_assistant_can_make_you_more_productive";
+import WhyHireAVirtualAssistant from "./Components/Pages/Blog/why_hire_a_virtual_assistant";
 
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
@@ -180,6 +181,10 @@ const router = createBrowserRouter(
       <Route
         path="five_ways_a_virtual_assistant_can_make_you_more_productive"
         element={<FiveWaysAVirtualAssistantCanMakeYouMoreProductive />}
+      ></Route>
+      <Route
+        path="why_hire_a_virtual_assistant"
+        element={<WhyHireAVirtualAssistant />}
       ></Route>
       <Route
         path="/dashboard"

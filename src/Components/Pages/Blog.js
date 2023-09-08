@@ -29,6 +29,7 @@ import vaTwentysix from "../../img/va26.jpg";
 import vaTwentyseven from "../../img/va27.jpg";
 import vaTwentyeight from "../../img/va28.jpg";
 import vaTwentynine from "../../img/va29.jpg";
+import vaThirty from "../../img/va30.jpg";
 export default function Blog() {
   const blogs = {
     content: [
@@ -225,6 +226,12 @@ export default function Blog() {
         title: "Five ways a virtual assistant can make you more productive",
         url: "/five_ways_a_virtual_assistant_can_make_you_more_productive",
         img: vaTwentynine,
+        headline: "",
+      },
+      {
+        title: "Why Hire A Virtual Assistant",
+        url: "/why_hire_a_virtual_assistant",
+        img: vaThirty,
         headline: "",
       },
     ],
