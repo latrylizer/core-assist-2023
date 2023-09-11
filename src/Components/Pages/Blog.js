@@ -30,6 +30,8 @@ import vaTwentyseven from "../../img/va27.jpg";
 import vaTwentyeight from "../../img/va28.jpg";
 import vaTwentynine from "../../img/va29.jpg";
 import vaThirty from "../../img/va30.jpg";
+import vaThirtyone from "../../img/va31.jpg";
+import vaThirtytwo from "../../img/va32.jpg";
 export default function Blog() {
   const blogs = {
     content: [
@@ -232,6 +234,19 @@ export default function Blog() {
         title: "Why Hire A Virtual Assistant",
         url: "/why_hire_a_virtual_assistant",
         img: vaThirty,
+        headline: "",
+      },
+      {
+        title:
+          "The Benefits of Virtual Assistants: Why You Should Invest in One Here are a few tips on how you can set up your VA for success:",
+        url: "/the_benefits_of_virtual_assistants_why_you_should_invest_in_one_here_are_a_few_tips_on_how_you_can_set_up_your_va_for_success",
+        img: vaThirtyone,
+        headline: "",
+      },
+      {
+        title: "The Return Of Investment When Hiring A Virtual Admin Assistant",
+        url: "/the_return_of_investment_when_hiring_a_virtual_admin_assistant",
+        img: vaThirtytwo,
         headline: "",
       },
     ],

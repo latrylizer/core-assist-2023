@@ -40,6 +40,8 @@ import TopTenReasonWhySuccessfulEntrepreneursHireVirtualAssistants from "./Compo
 import TenBenefitsOfHiringAVirtualAssistant from "./Components/Pages/Blog/Ten_benefits_of_hiring_a_virtual_assistant";
 import FiveWaysAVirtualAssistantCanMakeYouMoreProductive from "./Components/Pages/Blog/five_ways_a_virtual_assistant_can_make_you_more_productive";
 import WhyHireAVirtualAssistant from "./Components/Pages/Blog/why_hire_a_virtual_assistant";
+import TheBenefitsOfVirtualAssistantsWhyYouShouldInvestInOneHereAreAFewTipsOnHowYouCanSetUpYourVaForSuccess from "./Components/Pages/Blog/the_benefits_of_virtual_assistants_why_you_should_invest_in_one_here_are_a_few_tips_on_how_you_can_set_up_your_va_for_success";
+import TheReturnOfInvestmentWhenHiringAVirtualAdminAssistant from "./Components/Pages/Blog/the_return_of_investment_when_hiring_a_virtual_admin_assistant";
 
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
@@ -185,6 +187,16 @@ const router = createBrowserRouter(
       <Route
         path="why_hire_a_virtual_assistant"
         element={<WhyHireAVirtualAssistant />}
+      ></Route>
+      <Route
+        path="the_benefits_of_virtual_assistants_why_you_should_invest_in_one_here_are_a_few_tips_on_how_you_can_set_up_your_va_for_success"
+        element={
+          <TheBenefitsOfVirtualAssistantsWhyYouShouldInvestInOneHereAreAFewTipsOnHowYouCanSetUpYourVaForSuccess />
+        }
+      ></Route>
+      <Route
+        path="the_return_of_investment_when_hiring_a_virtual_admin_assistant"
+        element={<TheReturnOfInvestmentWhenHiringAVirtualAdminAssistant />}
       ></Route>
       <Route
         path="/dashboard"
