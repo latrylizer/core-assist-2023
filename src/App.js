@@ -42,6 +42,8 @@ import FiveWaysAVirtualAssistantCanMakeYouMoreProductive from "./Components/Page
 import WhyHireAVirtualAssistant from "./Components/Pages/Blog/why_hire_a_virtual_assistant";
 import TheBenefitsOfVirtualAssistantsWhyYouShouldInvestInOneHereAreAFewTipsOnHowYouCanSetUpYourVaForSuccess from "./Components/Pages/Blog/the_benefits_of_virtual_assistants_why_you_should_invest_in_one_here_are_a_few_tips_on_how_you_can_set_up_your_va_for_success";
 import TheReturnOfInvestmentWhenHiringAVirtualAdminAssistant from "./Components/Pages/Blog/the_return_of_investment_when_hiring_a_virtual_admin_assistant";
+import VirtualAssistantVsEmployeeFiveReasonsWhyARemoteAssistantCanBeTheBestSolution from "./Components/Pages/Blog/virtual_assistant_vs_employee_five_reasons_why_a_remote_assistant_can_be_the_best_solution";
+import WhyYourBusinessNeedsAVirtualAssistant from "./Components/Pages/Blog/why_your_business_needs_a_virtual_assistant";
 
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
@@ -197,6 +199,16 @@ const router = createBrowserRouter(
       <Route
         path="the_return_of_investment_when_hiring_a_virtual_admin_assistant"
         element={<TheReturnOfInvestmentWhenHiringAVirtualAdminAssistant />}
+      ></Route>
+      <Route
+        path="virtual_assistant_vs_employee_five_reasons_why_a_remote_assistant_can_be_the_best_solution"
+        element={
+          <VirtualAssistantVsEmployeeFiveReasonsWhyARemoteAssistantCanBeTheBestSolution />
+        }
+      ></Route>
+      <Route
+        path="why_your_business_needs_a_virtual_assistant"
+        element={<WhyYourBusinessNeedsAVirtualAssistant />}
       ></Route>
       <Route
         path="/dashboard"

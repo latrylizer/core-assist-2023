@@ -32,6 +32,8 @@ import vaTwentynine from "../../img/va29.jpg";
 import vaThirty from "../../img/va30.jpg";
 import vaThirtyone from "../../img/va31.jpg";
 import vaThirtytwo from "../../img/va32.jpg";
+import vaThirtythree from "../../img/va33.jpg";
+import vaThirtyfour from "../../img/va34.jpg";
 export default function Blog() {
   const blogs = {
     content: [
@@ -247,6 +249,19 @@ export default function Blog() {
         title: "The Return Of Investment When Hiring A Virtual Admin Assistant",
         url: "/the_return_of_investment_when_hiring_a_virtual_admin_assistant",
         img: vaThirtytwo,
+        headline: "",
+      },
+      {
+        title:
+          "Virtual Assistant vs Employee: Five Reasons Why A Remote Assistant Can Be The Best Solution",
+        url: "/virtual_assistant_vs_employee_five_reasons_why_a_remote_assistant_can_be_the_best_solution",
+        img: vaThirtythree,
+        headline: "",
+      },
+      {
+        title: "Why Your Business Needs A Virtual Assistant",
+        url: "/why_your_business_needs_a_virtual_assistant",
+        img: vaThirtyfour,
         headline: "",
       },
     ],
