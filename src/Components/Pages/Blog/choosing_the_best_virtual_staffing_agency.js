@@ -15,7 +15,7 @@ export default function choosing_the_best_virtual_staffing_agency() {
       "Customization and Personalization",
       "Succession Planning",
     ],
-    title: "Choosing the best virtual staffing agency",
+    title: "Choosing the Best Virtual Staffing Agency",
     img: vaEighteen,
   };
   return <SubContent Content={content} />;

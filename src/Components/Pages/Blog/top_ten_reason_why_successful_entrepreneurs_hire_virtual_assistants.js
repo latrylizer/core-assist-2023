@@ -16,7 +16,7 @@ export default function top_ten_reason_why_successful_entrepreneurs_hire_virtual
       "You Need to Increase the Asset Value of Your Business",
     ],
     title:
-      "Top ten reason why successful enterpreneurs hire virtual assistants",
+      "Top Ten Reasons Why Successful Entrepreneurs Hire Virtual Assistants",
     img: vaTwentyseven,
   };
   return <SubContent Content={content} />;

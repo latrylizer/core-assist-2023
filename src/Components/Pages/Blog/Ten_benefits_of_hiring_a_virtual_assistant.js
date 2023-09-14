@@ -15,7 +15,7 @@ export default function Ten_benefits_of_hiring_a_virtual_assistant() {
       "Increased productivity",
       "Enhanced emotional well-being",
     ],
-    title: "Ten benefits of hiring a virtual assistant",
+    title: "Ten Benefits of Hiring a Virtual Assistant",
     img: vaTwentyeight,
   };
   return <SubContent Content={content} />;

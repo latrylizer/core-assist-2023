@@ -12,7 +12,7 @@ export default function how_to_choose_the_right_virtual_assistant_for_your_busin
       "Conduct Interviews and Trial Periods",
     ],
     title:
-      "How to choose the right virtual assistant for your business boost efficiency and success",
+      "How to Choose the Right Virtual Assistant for Your Business: Boost Efficiency and Success!",
     img: vaTwentyone,
   };
   return <SubContent Content={content} />;

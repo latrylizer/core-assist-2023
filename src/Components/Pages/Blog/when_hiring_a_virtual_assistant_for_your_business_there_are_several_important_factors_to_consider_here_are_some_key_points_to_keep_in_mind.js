@@ -13,7 +13,7 @@ export default function when_hiring_a_virtual_assistant_for_your_business_there_
       "Trial period",
     ],
     title:
-      "When hiring a virtual assistant for your business there are several important factors to consider. Here are some key points to keep in mind",
+      "When Hiring A Virtual Assistant For Your Business There Are Several Important Factors To Consider. Here Are Some Key Points To Keep In Mind",
     img: vaTwentythree,
   };
   return <SubContent Content={content} />;

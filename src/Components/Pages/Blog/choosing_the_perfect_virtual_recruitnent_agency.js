@@ -17,7 +17,7 @@ export default function choosing_the_perfect_virtual_recruitnent_agency() {
       "Innovative Recruitment Strategies",
       "Agility and Adaptability",
     ],
-    title: "Choosing the perfect virtual recruitment agency",
+    title: "Choosing The Perfect Virtual Recruitment Agency",
     img: vaFourteen,
   };
   return <SubContent Content={content} />;

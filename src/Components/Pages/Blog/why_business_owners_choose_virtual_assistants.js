@@ -13,7 +13,7 @@ export default function why_business_owners_choose_virtual_assistants() {
       "Quick ramp-up time",
       "Scalability and flexibility",
     ],
-    title: "Why business owners choose virtual assistants",
+    title: "Why Business Owners Choose Virtual Assistants",
     img: vaSeventeen,
   };
   return <SubContent Content={content} />;

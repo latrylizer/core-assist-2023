@@ -10,7 +10,7 @@ export default function why_coreassist() {
       "Cost-effective solutions",
       "Focus on growth",
     ],
-    title: "Why coreassist?",
+    title: "Why Coreassist?",
     img: vaTwentytwo,
   };
   return <SubContent Content={content} />;

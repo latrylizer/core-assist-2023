@@ -12,7 +12,7 @@ export default function what_are_the_benefits_of_hiring_a_virtual_assistant() {
       "24/7 availability",
       "Reduced administrative burden",
     ],
-    title: "What are the benefits of hiring a virtual assistant",
+    title: "What Are The Benefits Of Hiring A Virtual Assistant",
     img: vaTwentyfive,
   };
   return <SubContent Content={content} />;

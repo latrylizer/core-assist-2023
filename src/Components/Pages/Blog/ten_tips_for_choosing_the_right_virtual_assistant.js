@@ -15,7 +15,7 @@ export default function ten_tips_for_choosing_the_right_virtual_assistant() {
       "Meet With Your Potentials",
       "Be Readily Available",
     ],
-    title: "Ten tips for choosing the right virtual assistant",
+    title: "Ten Tips for Choosing the Right Virtual Assistant",
     img: vaTwenty,
   };
   return <SubContent Content={content} />;

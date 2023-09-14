@@ -34,6 +34,9 @@ import vaThirtyone from "../../img/va31.jpg";
 import vaThirtytwo from "../../img/va32.jpg";
 import vaThirtythree from "../../img/va33.jpg";
 import vaThirtyfour from "../../img/va34.jpg";
+import vaThirtyfive from "../../img/va35.jpg";
+import vaThirtysix from "../../img/va36.jpg";
+import vaThirtyseven from "../../img/va37.jpg";
 export default function Blog() {
   const blogs = {
     content: [
@@ -133,76 +136,76 @@ export default function Blog() {
       },
 
       {
-        title: "Choosing the perfect virtual recruitment agency",
+        title: "Choosing The Perfect Virtual Recruitment Agency",
         url: "/choosing_the_perfect_virtual_recruitnent_agency",
         img: vaFourteen,
         headline: "",
       },
       {
         title:
-          "What are the important things to consider in hiring perfect virtual assistants?",
+          "What Are The Important Things To Consider In Hiring Perfect Virtual Assistants?",
         url: "/what_are_the_important_things_to_consider_in_hiring_perfect_virtual_assistants",
         img: vaFifteen,
         headline: "",
       },
       {
-        title: "Grow your business with us",
+        title: "Grow Your Business With Us",
         url: "/grow_your_business_with_us",
         img: vaSixteen,
         headline: "",
       },
       {
-        title: "Why business owners choose virtual assistants",
+        title: "Why Business Owners Choose Virtual Assistants",
         url: "/why_business_owners_choose_virtual_assistants",
         img: vaSeventeen,
         headline: "",
       },
       {
-        title: "Choosing the best virtual staffing agency",
+        title: "Choosing the Best Virtual Staffing Agency",
         url: "/choosing_the_best_virtual_staffing_agency",
         img: vaEighteen,
         headline: "",
       },
       {
-        title: "Keys to consider when hiring a virtual assistant",
+        title: "Keys to Consider When Hiring a Virtual Assistant",
         url: "/keys_to_consider_when_hiring_a_virtual_assistant",
         img: vaNineteen,
         headline: "",
       },
       {
-        title: "Ten tips for choosing the right virtual assistant",
+        title: "Ten Tips for Choosing the Right Virtual Assistant",
         url: "/ten_tips_for_choosing_the_right_virtual_assistant",
         img: vaTwenty,
         headline: "",
       },
       {
         title:
-          "How to choose the right virtual assistant for your business boost efficiency and success",
+          "How to Choose the Right Virtual Assistant for Your Business: Boost Efficiency and Success!",
         url: "/how_to_choose_the_right_virtual_assistant_for_your_business_boost_efficiency_and_success",
         img: vaTwentyone,
         headline: "",
       },
       {
-        title: "Why coreassist?",
+        title: "Why Coreassist?",
         url: "/why_coreassist",
         img: vaTwentytwo,
         headline: "",
       },
       {
         title:
-          "When hiring a virtual assistant for your business there are several important factors to consider. Here are some key points to keep in mind",
+          "When Hiring A Virtual Assistant For Your Business There Are Several Important Factors To Consider. Here Are Some Key Points To Keep In Mind",
         url: "/when_hiring_a_virtual_assistant_for_your_business_there_are_several_important_factors_to_consider_here_are_some_key_points_to_keep_in_mind",
         img: vaTwentythree,
         headline: "",
       },
       {
-        title: "Advantages of hiring a virtual assistant",
+        title: "Advantages Of Hiring A Virtual Assistant",
         url: "/advantages_of_hiring_a_virtual_assistant",
         img: vaTwentyfour,
         headline: "",
       },
       {
-        title: "What are the benefits of hiring a virtual assistant",
+        title: "What Are The Benefits Of Hiring A Virtual Assistant",
         url: "/what_are_the_benefits_of_hiring_a_virtual_assistant",
         img: vaTwentyfive,
         headline: "",
@@ -215,19 +218,19 @@ export default function Blog() {
       },
       {
         title:
-          "Top ten reason why successful enterpreneurs hire virtual assistants",
+          "Top Ten Reasons Why Successful Entrepreneurs Hire Virtual Assistants",
         url: "/top_ten_reason_why_successful_entrepreneurs_hire_virtual_assistants",
         img: vaTwentyseven,
         headline: "",
       },
       {
-        title: "Ten benefits of hiring a virtual assistant",
+        title: "Ten Benefits of Hiring a Virtual Assistant",
         url: "/Ten_benefits_of_hiring_a_virtual_assistant",
         img: vaTwentyeight,
         headline: "",
       },
       {
-        title: "Five ways a virtual assistant can make you more productive",
+        title: "Five Ways A Virtual Assistant Can Make You More Productive",
         url: "/five_ways_a_virtual_assistant_can_make_you_more_productive",
         img: vaTwentynine,
         headline: "",
@@ -262,6 +265,25 @@ export default function Blog() {
         title: "Why Your Business Needs A Virtual Assistant",
         url: "/why_your_business_needs_a_virtual_assistant",
         img: vaThirtyfour,
+        headline: "",
+      },
+      {
+        title:
+          "Why A Virtual Assistant For Entrepreneurs Is A Great Investment?",
+        url: "/why_a_virtual_assistant_for_entrepreneurs_is_a_great_investment",
+        img: vaThirtyfive,
+        headline: "",
+      },
+      {
+        title: "Ten Reasons to Work From Home and Improve Productivity",
+        url: "/ten_reasons_to_work_from_home_and_improve_productivity",
+        img: vaThirtysix,
+        headline: "",
+      },
+      {
+        title: "Benefits of Outsourcing To A Virtual Assistant",
+        url: "/benefits_of_outsourcing_to_a_virtual_assistant",
+        img: vaThirtyseven,
         headline: "",
       },
     ],

@@ -13,7 +13,7 @@ export default function keys_to_consider_when_hiring_a_virtual_assistant() {
       "Cost and budget",
       "Data security and confidentiality",
     ],
-    title: "Keys to consider when hiring a virtual assistant",
+    title: "Keys to Consider When Hiring a Virtual Assistant",
     img: vaNineteen,
   };
   return <SubContent Content={content} />;

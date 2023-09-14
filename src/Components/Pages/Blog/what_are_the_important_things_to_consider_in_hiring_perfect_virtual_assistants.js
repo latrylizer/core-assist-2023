@@ -12,7 +12,7 @@ export default function what_are_the_important_things_to_consider_in_hiring_perf
       "Technology and Tools",
     ],
     title:
-      "What are the important things to consider in hiring perfect virtual assistants?",
+      "What Are The Important Things To Consider In Hiring Perfect Virtual Assistants?",
     img: vaFifteen,
   };
   return <SubContent Content={content} />;

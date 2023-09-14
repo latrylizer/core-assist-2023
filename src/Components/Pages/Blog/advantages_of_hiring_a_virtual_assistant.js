@@ -10,7 +10,7 @@ export default function advantages_of_hiring_a_virtual_assistant() {
       "Time Savings",
       "Ongoing Support",
     ],
-    title: "Advantages of hiring a virtual assistant",
+    title: "Advantages Of Hiring A Virtual Assistant",
     img: vaTwentyfour,
   };
   return <SubContent Content={content} />;

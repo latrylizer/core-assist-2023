@@ -21,7 +21,7 @@ export default function grow_your_business_with_us() {
       "Review pricing and flexibility",
       "Request references",
     ],
-    title: "Grow your business with us",
+    title: "Grow Your Business With Us",
     img: vaSixteen,
   };
   return <SubContent Content={content} />;

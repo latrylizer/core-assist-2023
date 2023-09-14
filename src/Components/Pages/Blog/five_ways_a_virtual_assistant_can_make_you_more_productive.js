@@ -10,7 +10,7 @@ export default function five_ways_a_virtual_assistant_can_make_you_more_producti
       "They Complete Tedious Daily Tasks",
       "They Let You Focus on What You Do Best",
     ],
-    title: "Five ways a virtual assistant can make you more productive",
+    title: "Five Ways A Virtual Assistant Can Make You More Productive",
     img: vaTwentynine,
   };
   return <SubContent Content={content} />;
