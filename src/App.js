@@ -47,6 +47,7 @@ import WhyYourBusinessNeedsAVirtualAssistant from "./Components/Pages/Blog/why_y
 import WhyAVirtualAssistantForEntrepreneursIsAGreatInvestment from "./Components/Pages/Blog/why_a_virtual_assistant_for_entrepreneurs_is_a_great_investment";
 import TenReasonsToWorkFromHomeAndImproveProductivity from "./Components/Pages/Blog/ten_reasons_to_work_from_home_and_improve_productivity";
 import BenefitsOfOutsourcingToAVirtualAssistant from "./Components/Pages/Blog/benefits_of_outsourcing_to_a_virtual_assistant";
+import WhyBusinessOwnersAreChoosingCoreassistVirtualAssistant from "./Components/Pages/Blog/why_business_owners_are_choosing_coreassist_virtual_assistant";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
 import {
@@ -223,6 +224,14 @@ const router = createBrowserRouter(
       <Route
         path="benefits_of_outsourcing_to_a_virtual_assistant"
         element={<BenefitsOfOutsourcingToAVirtualAssistant />}
+      ></Route>
+      <Route
+        path="benefits_of_outsourcing_to_a_virtual_assistant"
+        element={<BenefitsOfOutsourcingToAVirtualAssistant />}
+      ></Route>
+       <Route
+        path="why_business_owners_are_choosing_coreassist_virtual_assistant"
+        element={<WhyBusinessOwnersAreChoosingCoreassistVirtualAssistant />}
       ></Route>
       <Route
         path="/dashboard"
