@@ -37,6 +37,9 @@ import vaThirtyfour from "../../img/va34.jpg";
 import vaThirtyfive from "../../img/va35.jpg";
 import vaThirtysix from "../../img/va36.jpg";
 import vaThirtyseven from "../../img/va37.jpg";
+import vaThirtyeight from "../../img/va38.jpg";
+import vaThirtynine from "../../img/va39.jpg";
+import vaFourty from "../../img/va40.jpg";
 export default function Blog() {
   const blogs = {
     content: [
@@ -284,6 +287,27 @@ export default function Blog() {
         title: "Benefits of Outsourcing To A Virtual Assistant",
         url: "/benefits_of_outsourcing_to_a_virtual_assistant",
         img: vaThirtyseven,
+        headline: "",
+      },
+      {
+        title:
+          "Outsourcing Success: Why Business Owners Are Choosing CoreAssist Virtual Assistants",
+        url: "/why_business_owners_are_choosing_coreassist_virtual_assistant",
+        img: vaThirtyeight,
+        headline: "",
+      },
+      {
+        title:
+          "Stay Focused on What Matters: How CoreAssist Virtual Assistants Handle your Business",
+        url: "/how_coreassist_virtual_assistants_handle_your_business",
+        img: vaThirtynine,
+        headline: "",
+      },
+      {
+        title:
+          "Virtual Assistants for Every Industry: Why CoreAssist is Your Top Choice",
+        url: "/why_coreassist_is_your_top_choice",
+        img: vaFourty,
         headline: "",
       },
     ],
