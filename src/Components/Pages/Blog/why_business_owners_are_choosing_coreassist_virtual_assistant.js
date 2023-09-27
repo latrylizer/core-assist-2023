@@ -13,7 +13,7 @@ export default function why_business_owners_are_choosing_coreassist_virtual_assi
             body: "Virtual assistants can be hired on a per-project or part-time basis, allowing business owners to scale their support up or down as needed."
            },
            {
-            header: "",
+            header: "Bibot baho",
             body: "Virtual assistants can be hired on a per-project or part-time basis, allowing business owners to scale their support up or down as needed."
            }
         ],

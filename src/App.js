@@ -134,6 +134,7 @@ const router = createBrowserRouter(
         path="/grow_your_business_with_us"
         element={<GrowYourBusinessWithUs />}
       ></Route>
+      
       <Route
         path="/why_business_owners_choose_virtual_assistants"
         element={<WhyBusinessOwnersChooseVirtualAssistants />}
@@ -233,6 +234,13 @@ const router = createBrowserRouter(
         path="why_business_owners_are_choosing_coreassist_virtual_assistant"
         element={<WhyBusinessOwnersAreChoosingCoreassistVirtualAssistant />}
       ></Route>
+       <Route
+        path="why_business_owners_are_choosing_coreassist_virtual_assistant2"
+        element={()=>{
+          return WhyBusinessOwnersAreChoosingCoreassistVirtualAssistant
+        }}
+      ></Route>
+      
       <Route
         path="/dashboard"
         element={

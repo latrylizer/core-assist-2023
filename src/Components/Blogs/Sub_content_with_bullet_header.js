@@ -26,7 +26,7 @@ export default function Sub_content_with_bullet_header(props) {
             
             {props.Content.list.map((item, index) => (
              <div>
-                <li key={index}><span className='fw-normal fs-4 text-orange'>{item.header}{item.header === "" ? "": ":"}</span> {item.body}</li>
+                <li key={index}><span className='fw-normal fs-5 text-orange'>{item.header}{item.header === "" ? "": ":"}</span> {item.body}</li>
                 {index === Math.round(props.Content.list.length / 2) - 1 ? (
                 <img className="w-100 py-4" src={props.Content.img} alt="va"></img>
               ) : (
