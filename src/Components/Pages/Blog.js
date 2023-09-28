@@ -40,6 +40,7 @@ import vaThirtyseven from "../../img/va37.jpg";
 import vaThirtyeight from "../../img/va38.jpg";
 import vaThirtynine from "../../img/va39.jpg";
 import vaFourty from "../../img/va40.jpg";
+import vaFourtyone from "../../img/va41.jpg";
 export default function Blog() {
   const blogs = {
     content: [
@@ -308,6 +309,13 @@ export default function Blog() {
           "Virtual Assistants for Every Industry: Why CoreAssist is Your Top Choice",
         url: "/why_coreassist_is_your_top_choice",
         img: vaFourty,
+        headline: "",
+      },
+      {
+        title:
+          "From Overwhelmed to Organized: Transform Your Business with CoreAssist Virtual Assistants",
+        url: "/transform_your_business_with_coreassist_virtual_assistants",
+        img: vaFourtyone,
         headline: "",
       },
     ],

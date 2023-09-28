@@ -50,6 +50,7 @@ import BenefitsOfOutsourcingToAVirtualAssistant from "./Components/Pages/Blog/be
 import WhyBusinessOwnersAreChoosingCoreassistVirtualAssistant from "./Components/Pages/Blog/why_business_owners_are_choosing_coreassist_virtual_assistant";
 import HowCoreassistVirtualAssistantsHandleYourBusiness from "./Components/Pages/Blog/how_coreassist_virtual_assistants_handle_your_business";
 import WhyCoreassistIsYourTopChoice from "./Components/Pages/Blog/why_coreassist_is_your_top_choice";
+import TransformYourBusinessWithCoreassistVirtualAssistants from "./Components/Pages/Blog/transform_your_business_with_coreassist_virtual_assistants";
 
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
@@ -244,6 +245,10 @@ const router = createBrowserRouter(
       <Route
         path="why_coreassist_is_your_top_choice"
         element={<WhyCoreassistIsYourTopChoice />}
+      ></Route>
+      <Route
+        path="transform_your_business_with_coreassist_virtual_assistants"
+        element={<TransformYourBusinessWithCoreassistVirtualAssistants />}
       ></Route>
       <Route
         path="/dashboard"
