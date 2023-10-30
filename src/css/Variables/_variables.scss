@@ -6,10 +6,10 @@ $lightOrange: rgba(239, 150, 40, 1) !important;
 $dark: #212529 !important;
 
 .bg-orange {
-  background-color: $orange;
+  background-color: $orange !important;
 }
 .text-orange {
-  color: $orange;
+  color: $orange !important;
 }
 .btn-orange {
   background-color: $hex-orange !important;

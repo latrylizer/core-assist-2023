@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Footer from "../Footer/Footer";
-
+import leslie from '../../img/staff/leslie.jpg'
 const ContactUs = () => {
   const [formstate, setFormState] = useState({});
   const changeHandler = (event) => {
@@ -48,55 +48,32 @@ const ContactUs = () => {
           />
         </div>
       </div>
-      <div className="container-fluid bg-light pb-5">
+      <div className="container-fluid bg-light">
         <div className="container">
-          <header className="pt-4 h1 text-center text-orange">
-            Contact us
+          <header className="display-5 fw-normal py-3 h1 text-center text-orange text-uppercase">
+            Please Contact
           </header>
           <hr />
-          <div className="col-md-8">
-            <form onSubmit={handOnSubmit}>
-              <div className="row"></div>
-              <div className="form-group">
-                <label className="lead">Email</label>
-                <input
-                  type="email"
-                  name="email"
-                  value={formstate.name || ""}
-                  onChange={changeHandler}
-                  className="form-control"
-                />
+         <div className="row justify-content-center py-3">
+          <div className="col-md-4">
+            <div className="card">
+              <img src={leslie} className="w-100" alt="leslie"></img>
+              <div className="card-body">
+              <header className="display-6 my-3">Leslie McEwen</header>
+              <p className="lead m-0">Sales Executive</p>
+              <p className="lead m-0">Email: 
+                <span>
+                  <a href="mailto: leslie.mcwen@coreassist.com">
+                    leslie.mcwen@coreassist.com
+                  </a>
+                </span>
+              </p>
+             <p className="lead m-0">Contact No. : 901-405-4525</p>
               </div>
-              <div className="form-group">
-                <label className="lead">Subject</label>
-                <input
-                  type="text"
-                  name="subject"
-                  value={formstate.name || ""}
-                  onChange={changeHandler}
-                  className="form-control"
-                />
-              </div>
-              <div className="form-group">
-                <label className="lead">Message</label>
-                <textarea
-                  className="form-control"
-                  onChange={changeHandler}
-                  name="Message"
-                  value={formstate.name || ""}
-                  id=""
-                  cols="30"
-                  rows="10"
-                ></textarea>
-              </div>
-              <button
-                type="submit"
-                className="btn btn-orange btn-block mt-3 px-5"
-              >
-                Submit
-              </button>
-            </form>
+            </div>
+            
           </div>
+         </div>
         </div>
       </div>
       <Footer />
